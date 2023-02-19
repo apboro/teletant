@@ -1,0 +1,28 @@
+{
+    "name": "apboro/teletant",
+    "description": "Telegram bot framework",
+    "type": "library",
+    "version": "1.4.9",
+    "keywords": ["telegram", "teletant", "telebot", "bot", "PHP", "video", "stickers", "audio", "files"],
+    "require": {
+        "php": "^7.4|^8.2",
+        "guzzlehttp/guzzle": "7.2",
+        "askoldex/formatter": "1.0.3",
+        "ext-mbstring": "*",
+        "ext-json": "*",
+        "psr/log": "^3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Askoldex",
+            "email": "askold.monarkhov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Askoldex\\Teletant\\": "src/"
+        }
+    }
+}
