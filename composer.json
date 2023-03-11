@@ -5,8 +5,8 @@
     "version": "1.4.9",
     "keywords": ["telegram", "teletant", "telebot", "bot", "PHP", "video", "stickers", "audio", "files"],
     "require": {
-        "php": "^7.4|^8.2",
-        "guzzlehttp/guzzle": "^7.2",
+        "php": "^7.4|^8",
+        "guzzlehttp/guzzle": "^7",
         "askoldex/formatter": "1.0.3",
         "ext-mbstring": "*",
         "ext-json": "*",
